@@ -108,6 +108,47 @@ margin: 0 auto;
 #quick-list{
     font-weight:500;
 }
+/* feature section */
+.feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding: 21px;
+}
+.feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+.feature-card{
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgb(0,0,0,0.10);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.features{
+gap: 140px;
+}
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left:-100px;
+    margin-top: -100px;
+}
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.featured-architect img {
+    width: 100%;
+    margin-top:245px ;
+
+}
+
 /* some facts related styles */
 .fact-card{
     border: 1px solid #FF900E;
@@ -176,7 +217,8 @@ fact-description{
 
 /* responsive media query */
 @media  screen and (max-width:576px){
-    .navbar, .nav-link, .teams, .facts-container{
+    .navbar, .nav-link, .teams, .facts-container, 
+    .features{
         flex-direction: column;
     }
    .team-img-container, 
@@ -185,7 +227,17 @@ fact-description{
     grid-template-columns:repeat(1, 1fr);
     
    } 
-
+   #experience-badge{
+    margin-top: 20PX;
+    margin-left: 20PX;
+   }
+.featured-architect{
+    margin-top: -300px;
+    
+}
+.team-image-container{
+    text-align: center;
+}
 }
 /* madium size device */
 @media screen and (min-width:576px)and(max-width:992px){
