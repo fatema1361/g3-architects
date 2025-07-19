@@ -47,9 +47,10 @@
 /* team and feature related styles */
 .teams{
     align-items: center;
+    display: flex;
 
 }
-.team-img-container{
+.team-image-container{
     display: grid;
     grid-template-columns:repeat(2, 1fr);
     gap: 24px;
@@ -237,6 +238,7 @@ fact-description{
 }
 .team-image-container{
     text-align: center;
+
 }
 }
 /* madium size device */
